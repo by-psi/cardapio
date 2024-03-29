@@ -52,6 +52,19 @@ function addToCart(name, price){
       quantity: 1,
     }) 
   }
+
+  Toastify({
+    text: `Item "${name}" adicionado! `,
+    duration: 2500,
+    close: true,
+    gravity: "bottom", // `top` or `bottom`
+    position: "center", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "black",
+    },
+  }).showToast();
+
   updateCartModal()
 }
 

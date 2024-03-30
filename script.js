@@ -55,7 +55,7 @@ function addToCart(name, price){
 
   Toastify({
     text: `Item "${name}" adicionado! `,
-    duration: 2500,
+    duration: 1500,
     close: true,
     gravity: "bottom", // `top` or `bottom`
     position: "center", // `left`, `center` or `right`
@@ -138,8 +138,8 @@ checkoutBtn.addEventListener("click", function(){
   const isOpen = checkRestaurantIsOpen();
   if (!isOpen){
     Toastify({
-      text: "Restaurante está fechado no momento",
-      duration: 3000,
+      text: "Restaurante fechado no momento! E aí, gostou do modelo? Faça o seu Cardápio Online também: (31) 98410-7540 Ezequias",
+      duration: 5000,
       close: true,
       gravity: "top", // `top` or `bottom`
       position: "right", // `left`, `center` or `right`

@@ -139,7 +139,7 @@ checkoutBtn.addEventListener("click", function(){
   const isOpen = checkRestaurantIsOpen();
   if (!isOpen){
     Toastify({
-      text: "Restaurante fechado no momento! E aí, gostou do modelo? Faça o seu Cardápio Online também: (31) 98410-7540 Ezequias",
+      text: "Restaurante fechado no momento! E aí, gostou do modelo? Faça o seu Cardápio Online também: (31) 98410-7540 Ezequias [planos a partir de R$ 49,90 por mês]",
       duration: 5000,
       close: true,
       gravity: "top", // `top` or `bottom`

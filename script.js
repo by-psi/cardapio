@@ -136,21 +136,21 @@ addressInput.addEventListener("input", function(event){
 // Finalizar pedido
 checkoutBtn.addEventListener("click", function(){
 
-  const isOpen = checkRestaurantIsOpen();
-  if (!isOpen){
-    Toastify({
-      text: "Restaurante fechado no momento! E aí, gostou do modelo? Faça o seu Cardápio Online também: (31) 98410-7540 Ezequias [planos a partir de R$ 49,90 por mês]",
-      duration: 5000,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "right", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "#EF4444",
-      },
-    }).showToast();
-    return;
-  }
+  // const isOpen = checkRestaurantIsOpen();
+  // if (!isOpen){
+  //   Toastify({
+  //     text: "Restaurante fechado no momento! E aí, gostou do modelo? Faça o seu Cardápio Online também: (31) 98410-7540 Ezequias [planos a partir de R$ 49,90 por mês]",
+  //     duration: 5000,
+  //     close: true,
+  //     gravity: "top", // `top` or `bottom`
+  //     position: "right", // `left`, `center` or `right`
+  //     stopOnFocus: true, // Prevents dismissing of toast on hover
+  //     style: {
+  //       background: "#EF4444",
+  //     },
+  //   }).showToast();
+  //   return;
+  // }
 
   if(cart.length === 0) return;
   if(addressInput.value === ""){

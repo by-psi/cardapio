@@ -1963,8 +1963,11 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
-.bg-home {
-  background-image: url('/assets/bg.png');
+.bg-header {
+  background-image: url('/assets/bg-header.jpg');
+}
+.bg-footer {
+  background-image: url('/assets/bg-footer.jpg');
 }
 
 .decoration-slice {
